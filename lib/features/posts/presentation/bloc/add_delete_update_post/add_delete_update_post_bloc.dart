@@ -13,8 +13,7 @@ import '../../../../../core/strings/failures.dart';
 part 'add_delete_update_post_event.dart';
 part 'add_delete_update_post_state.dart';
 
-class AddDeleteUpdatePostBloc
-    extends Bloc<AddDeleteUpdatePostEvent, AddDeleteUpdatePostState> {
+class AddDeleteUpdatePostBloc extends Bloc<AddDeleteUpdatePostEvent, AddDeleteUpdatePostState> {
   final AddPostUsecase addPost;
   final DeletePostUsecase deletePost;
   final UpdatePostUsecase updatePost;
